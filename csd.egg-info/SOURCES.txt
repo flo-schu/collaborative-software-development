@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+csd/__init__.py
+csd/student.py
+csd/team.py
+csd.egg-info/PKG-INFO
+csd.egg-info/SOURCES.txt
+csd.egg-info/dependency_links.txt
+csd.egg-info/requires.txt
+csd.egg-info/top_level.txt
