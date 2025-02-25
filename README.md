@@ -14,7 +14,7 @@ Follow these steps to set up the package in a new conda environment:
 
 1. **Clone the repository** (if applicable):
     ```bash
-    git clone https://github.com/flo-schu/collaborative-software-development.git
+    git clone git@github.com:flo-schu/collaborative-software-development.git  # (with ssh)
     cd collaborative-software-development
     ```
 
