@@ -26,6 +26,10 @@ Florian Schunck
 ---
 ### Installation 🛠️
 
+⚠⚠⚠
+For everything that follows [**stackexchange**](https://stackexchange.com) and [**chat-gpt**](https://librechat.uni-osnabrueck.de) are your friends 
+⚠⚠⚠
+
 For the workshop we need the following software
 
 1. `git` for version control
@@ -100,4 +104,10 @@ First, see if conda was already installed `conda --help`, if not: Follow the ins
 
 
 ---
-### Done ✅ You are ready to go 🚀
+### Practice 🛠️
+
+Go to: https://github.com/flo-schu/collaborative-software-development and follow the README
+
+
+---
+### Everything in the README worked? Done ✅ You are ready to go 🚀
