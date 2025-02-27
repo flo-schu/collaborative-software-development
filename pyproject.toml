@@ -15,6 +15,8 @@ dependencies = [
     "networkx == 3.4.2",
     "matplotlib == 3.10.0"
 ]
+[tool.setuptools.packages.find]
+include = ["csd*"]
 
 [project.urls]
 "Homepage" = "https://github.com/flo-schu/collaborative-software-development"
