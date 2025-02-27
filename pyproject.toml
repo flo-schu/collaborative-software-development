@@ -18,6 +18,9 @@ dependencies = [
 [tool.setuptools.packages.find]
 include = ["csd*"]
 
+[tool.setuptools.packages.find]
+include = ["csd*"]
+
 [project.urls]
 "Homepage" = "https://github.com/flo-schu/collaborative-software-development"
 "Repository" = "https://github.com/flo-schu/collaborative-software-development"
