@@ -15,6 +15,11 @@ def main():
     # Add students to the team
     team.add_student(flo)
 
+    vinc = Student("Vincent")
+    vinc.add_acquaintance(flo)
+    team.add_student(vinc)
+    
+
     # Draw the graph of connections based on neighbors
     team.draw_graph(connection_type='neighbors')  # Change to 'acquaintances' to visualize acquaintances
 
