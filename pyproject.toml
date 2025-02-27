@@ -16,6 +16,9 @@ dependencies = [
     "matplotlib == 3.10.0"
 ]
 
+[tool.setuotools.packages.find]
+include = ["csd*"]
+
 [project.urls]
 "Homepage" = "https://github.com/flo-schu/collaborative-software-development"
 "Repository" = "https://github.com/flo-schu/collaborative-software-development"
