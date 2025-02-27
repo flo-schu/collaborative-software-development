@@ -36,9 +36,11 @@ def main():
     leo.add_neighbor(waldo)
     team.add_student(markus)
     team.add_student(holzmichel)
+    
 
     vinc = Student("Vincent")
     vinc.add_acquaintance(flo)
+    vinc.add_neighbor(marie)
     team.add_student(vinc)
 
     # Draw the graph of connections based on neighbors
