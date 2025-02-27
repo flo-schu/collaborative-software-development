@@ -8,12 +8,14 @@ def main():
     # Hard-coded relationships
     flo = Student("Flo")
     waldo = Student("Waldo")
+    marie = Student("Marie")
 
     # Establish relationships
     flo.add_neighbor(waldo)
 
     # Add students to the team
     team.add_student(flo)
+    team.add_student(marie)
 
     # Draw the graph of connections based on neighbors
     team.draw_graph(connection_type='neighbors')  # Change to 'acquaintances' to visualize acquaintances
