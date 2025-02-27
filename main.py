@@ -8,6 +8,15 @@ def main():
     # Hard-coded relationships
     flo = Student("Flo")
     waldo = Student("Waldo")
+
+    amelie = Student("Amelie")
+
+    # Establish relationships
+    amelie.add_neighbor(flo)
+
+    # Add students to the team
+    team.add_student(amelie)
+
     leo = Student("Leo")
     markus = Student("Markus")
     holzmichel = Student("Holzmichel")
