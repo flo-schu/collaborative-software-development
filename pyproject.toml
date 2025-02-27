@@ -16,7 +16,7 @@ dependencies = [
     "matplotlib == 3.10.0"
 ]
 
-[tool.setuotools.packages.find]
+[tool.setuptools.packages.find]
 include = ["csd*"]
 
 [project.urls]
