@@ -106,7 +106,9 @@ First, see if conda was already installed `conda --help`, if not: Follow the ins
 ---
 ### Practice 🛠️
 
-Go to: https://github.com/flo-schu/collaborative-software-development and follow the README
+Complete the following tasks:
++ $\rightarrow$ Go to: https://github.com/flo-schu/collaborative-software-development and 
++ $\rightarrow$ follow the README
 
 
 ---

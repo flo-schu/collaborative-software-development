@@ -69,6 +69,38 @@ section {
 
 Go to: https://github.com/flo-schu/collaborative-software-development and follow the README
 
+
+---
+### Questions?
+
+
+---
+### Some hints
+
+<style scoped>
+section {
+  font-size: 24pt;
+}
+</style>
+
+Git needs some configuration to make signed commits
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "youremail@yourdomain.com"
+```
+
+Rebasing is better than plain pulling
+
+each time: 
+```bash
+git pull --rebase
+```
+or always:
+```bash
+git config --global pull.rebase true
+```
+
 ---
 ### Next: Hands on Git
 
