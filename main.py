@@ -24,7 +24,7 @@ def main():
 
     # Establish relationships
     flo.add_neighbor(waldo)
-    markus.add_acquaintance(flo)
+    markus.add_neighbor(flo)
     markus.add_neighbor(holzmichel)
 
     # Add students to the team
@@ -42,6 +42,12 @@ def main():
     vinc.add_acquaintance(flo)
     vinc.add_neighbor(marie)
     team.add_student(vinc)
+
+    markus.add_neighbor(waldo)
+    markus.add_neighbor(leo)
+    markus.add_neighbor(marie)
+    markus.add_neighbor(amelie)
+    markus.add_neighbor(vinc)
 
     # Draw the graph of connections based on neighbors
     team.draw_graph(connection_type='neighbors')  # Change to 'acquaintances' to visualize acquaintances
