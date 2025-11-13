@@ -2,6 +2,12 @@
 
 This package demonstrates collaborative software development concepts using a simple model of `Student` objects organized in a `Team`. Students can have relationships as either neighbors or acquaintances, which can be visualized as a graph using `networkx`.
 
+Instructions for using this repository are in the docs folder: 
+
+- [Introduction and install](https://github.com/flo-schu/collaborative-software-development/blob/main/docs/01_introduction_to_version_control_install_instructions.pdf)
+- [Version Control](https://github.com/flo-schu/collaborative-software-development/blob/main/docs/02_introduction_to_version_control_theory.pdf)
+- [Practice](https://github.com/flo-schu/collaborative-software-development/blob/main/docs/03_introduction_to_version_control_practice.pdf)
+
 ## Features
 
 - Define student relationships as neighbors and acquaintances.
